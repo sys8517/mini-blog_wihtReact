@@ -3,6 +3,7 @@ import { useNavigate, useParams } from "react-router-dom";
 import styled from "styled-components";
 import data from "../../data.json";
 import CommentList from "../list/CommentList";
+import Button from "../ui/Button";
 import TextInput from "../ui/TextInput";
 
 

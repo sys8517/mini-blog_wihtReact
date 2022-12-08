@@ -17,7 +17,7 @@ const Wrapper = styled.div`
 
 const Container = styled.div`
     width : 100%;
-    mas-width : 720px;
+    max-width : 720px;
 
     & > * {
         :not(:last-child) {

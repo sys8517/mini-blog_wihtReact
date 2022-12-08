@@ -28,7 +28,7 @@ const Container = styled.div`
 export default function PostWritePage(props) {
     const navigate = useNavigate();
 
-    const [title, setTitle] = useStaet("");
+    const [title, setTitle] = useState("");
     const [content, setContent] = useState("");
 
     return(
@@ -39,6 +39,7 @@ export default function PostWritePage(props) {
                     value={title}
                     onChange={(e) => {
                         setTitle(e.target.value);
+                        console.log(title);
                     }}
                 />
 
@@ -47,6 +48,7 @@ export default function PostWritePage(props) {
                     value={content}
                     onChange={(e) => {
                         setContent(e.target.value);
+                        console.log(content);
                     }}
                 />
 
